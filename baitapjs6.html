@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baitap6</title>
+</head>
+<body>
+<script>
+let masinhvien = Number(prompt("Nhập mã sinh viên"));
+let tensinhvien = (prompt("Nhập tên sinh viên"));
+let tuoisinhvien = Number(prompt("Nhập tuổi sinh viên"));
+let diemhtml = Number(prompt("Nhập điểm HTML"));
+let diemcss = Number(prompt("Nhập điểm CSS"));
+let diemjavascrip = Number(prompt("Nhập điểm javascrip"));
+diemtrungbinh = (diemcss + diemhtml + diemjavascrip)/3;
+
+document.write("Mã sinh viên:",masinhvien)
+document.write("<br>")
+document.write("Tên sinh viên:",tensinhvien)
+document.write("<br>")
+document.write("Tuổi sinh viên:",tuoisinhvien)
+document.write("<br>")
+document.write("Điểm trung bình của HTML,CSS và Javascrip là :" +diemtrungbinh)
+
+
+</script>
+</body>
+</html>
